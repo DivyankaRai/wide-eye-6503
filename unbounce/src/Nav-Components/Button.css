@@ -1,0 +1,14 @@
+.login-button{
+    height: 37px;
+    width: auto;
+    font-size: large;
+    font-weight: 500;
+    background-color:white;
+    color: blue;
+    border: 2px solid blue;
+}
+.login-button:hover{
+    border: 2px solid blue;
+    color:white;
+    background-color:blue;
+}
