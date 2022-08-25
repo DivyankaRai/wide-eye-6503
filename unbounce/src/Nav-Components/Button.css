@@ -9,7 +9,7 @@
 }
 .login-button:hover{
     border: 2px solid blue;
-    color:white;
+    color:rgba(255, 255, 255, 0.975);
     background-color:blue;
 }
 .free-button{
