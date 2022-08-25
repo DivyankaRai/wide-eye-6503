@@ -1,11 +1,14 @@
+p{
+    font-size: 15px;
+}
 .dropdown-menu{
-    width:60%;
+    width:400px;
     position: absolute;
-    top: 50px;
+    top: 60px;
     text-align:start;
     list-style: none;
     border: 1px solid black;
-    padding: 20px;
+    padding: 12px;
 }
 .dropdown-menu li{
     /* background: blue; */
@@ -19,10 +22,10 @@
     display: block;
     width:100%;
     height: 100%;
-    font-size: 17px;
+    font-size: 18px;
     text-decoration: none;
-    color: black;
-    padding: 9px;
+    color: rgb(48, 47, 47);
+    padding: 4px;
 }
 .dropdown-link:hover{
     color: aliceblue;
@@ -32,8 +35,9 @@
 .dropdown2-menu{
     width:200px;
     position: absolute;
-    top: 50px;
+    top: 60px;
     text-align:start;
+    color: rgb(48, 47, 47);
     list-style: none;
     border: 1px solid black;
     padding: 20px;
@@ -59,12 +63,43 @@
     color: aliceblue;
     background-color: blue;
 }
-.divv{
-    display: flex;
-    justify-content: space-between;
-    width:80%
+.dropdown3-menu{
+    width:400px;
+    position: absolute;
+    top: 60px;
+    text-align:start;
+    list-style: none;
+    border: 1px solid black;
+    padding: 12px;
 }
-.divv>div{
-    width: 50%;
-    border: 2px solid red;
+.dropdown3-menu li{
+    /* background: blue; */
+    cursor:pointer,
+
+}
+.dropdown3-menu.clicked{
+    display: none;
+}
+.dropdown3-link{
+    display: block;
+    width:100%;
+    height: 100%;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    padding: 4px;
+}
+.dropdown3-link:hover{
+    color: aliceblue;
+    background-color: blue;
+}
+h3{
+    font-size: 16px;
+    color: rgb(48, 47, 47);
+    margin-top: 2px;
+}
+h2{
+    font-size: 24px;
+    color: rgb(48, 47, 47);
+    margin-top: -1.5%;
 }

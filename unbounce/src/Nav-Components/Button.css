@@ -12,3 +12,18 @@
     color:white;
     background-color:blue;
 }
+.free-button{
+    height: 37px;
+    margin-left: 7%;
+    width: 160px;
+    font-size: 17px;
+    font-weight: 500;
+    background-color:blue;
+    color: white;
+    border: 2px solid blue;
+}
+.free-button:hover{
+    border: 2px solid blue;
+    color:blue;
+    background-color:white;
+}
