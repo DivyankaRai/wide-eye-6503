@@ -41,7 +41,6 @@ const Home = () => {
                 <Button  _hover={{color:"blue", border:"3px solid blue"}} marginLeft="1%" marginTop="14%" bg="white" color="black" mr="39px" fontSize="20px">Optimize your traffic</Button>
               </div>
           </div>
-         
       </div>
       <Car/>
       <div className={styles.imginfo}>
@@ -78,10 +77,60 @@ const Home = () => {
               <img src="https://unbounce.com/wp-content/webp-express/webp-images/doc-root/photos/Raise_Craze.png.webp"/>
             </div>
       </div>
-
-    </div>
+      <div className={styles.data}>
+            <h1>No matter how you grow, we can help</h1>
+            <p>Your business is unique—and so is the way you grow it online.
+               Whatever you want to achieve with your marketing, Unbounce has
+                a solution that can help you do it better, faster.</p>
+      </div>
+      <div className={styles.data2}>
+        {/* <div> */}
+          <div>
+            <div>
+                <h1>Get your business online</h1>
+                <p>Create landing pages and marketing campaigns that get your small business noticed. Best part? You can do it all yourself—without copywriters, designers, or developers</p>
+                <div className={styles.comp2}>
+                  <Button  _hover={{color:"blue", border:"3px solid blue"}} marginLeft="7%" marginTop="8%" bg="white" color="black" mr="39px" fontSize="20px">
+                    Promote your bussiness.
+                  </Button>
+                </div>
+            </div>
+            <div>
+                <h1>Grow your marketing agency</h1>
+                <p>Once you get clients, keep ’em. With customizable landing page templates and smart optimization features, you can launch high-converting campaigns at mad scale
+                </p>
+                <div className={styles.comp2}>
+                  <Button  _hover={{color:"blue", border:"3px solid blue"}} marginLeft="7%" marginTop="8%" bg="white" color="black" mr="39px" fontSize="20px">Wow your clients.</Button>
+                </div>
+            </div>
+          </div>
+        <div>
+          <img src="https://unbounce.com/wp-content/webp-express/webp-images/doc-root/photos/Group-29610-1.png.webp" />
+        </div>
+      </div>
+      <div className={styles.btn}>
+        <div>
+          <h1>Start building pages for free</h1>
+          <p>Build landing pages, popups, and sticky bars with your free 14-day trial. Cancel anytime.</p>
+          <div className={styles.comp2}>
+            <Button  _hover={{color:"blue", backgroundColor:"white"}} height="60px" marginBottom="7%" marginLeft="7%" marginTop="8%" border="2px solid white" bg="blue"  color="white" mr="39px" fontSize="20px">Start building pages</Button>
+          </div>
+        </div>
+        <div>
+          <h1>Start writing with AI—also free</h1>
+         <p>Use AI to instantly generate copy for your marketing campaigns. No credit card required.</p>
+          <div className={styles.comp2}>
+          <Button  _hover={{color:"blue", backgroundColor:"white"}} height="60px" marginBottom="7%" marginLeft="7%" marginTop="8%" border="2px solid white" bg="blue"  color="white" mr="39px" fontSize="20px">Start with AI</Button>
+          </div>
+        </div>
+      </div>
+  </div>
 
   )
 }
 
 export default Home
+ {/* <div>
+        <iframe width="40%" height="500px" src="https://unbounce.com/photos/0.1_Landing-Page-Overview_Hero.mp4" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
+      </div>  */}

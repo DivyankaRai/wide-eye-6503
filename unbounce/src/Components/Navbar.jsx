@@ -10,20 +10,24 @@ import {
 import { ChevronDownIcon } from '@chakra-ui/icons'
 
 import style from "../Components/nav.module.css"
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
+
   return (
     <div className={style.nav}>
         <div className={style.comp}>
             <div className={style.logo}>
-                <img src="https://unbounce.com/wp-content/themes/unbounce2019/assets/img/unbounce-icon.svg?v=1"/>
+                <Link to="/">
+                <img src="https://unbounce.com/wp-content/themes/unbounce2019/assets/img/unbounce-icon-dark.svg?v=1"/>
+                </Link>
             </div>
             <div className={style.box}>
-                <Menu>
-                    <MenuButton borderRadius="none"  _hover={{ color: 'blue', borderBottom:'3px solid blue',}} bg="none" mr="35px" as={Button} rightIcon={<ChevronDownIcon />}>
+                <Menu >
+                    <MenuButton  borderRadius="none"  _hover={{ color: 'blue', borderBottom:'3px solid blue',}} bg="none" mr="35px" as={Button} rightIcon={<ChevronDownIcon />}>
                         Product
                     </MenuButton>
-                    <MenuList color="black" display="flex">
+                    <MenuList  color="black" display="flex">
                         <Box>
                         <MenuItem>Smart Builder</MenuItem>
                         <MenuItem>Smart Copy</MenuItem>
@@ -33,8 +37,8 @@ const Navbar = () => {
                         </Box>
                     </MenuList>
                 </Menu>
-                <Menu>
-                    <MenuButton borderRadius="none"  _hover={{ color: 'blue', borderBottom:'3px solid blue',}} bg="none" mr="35px" as={Button}  rightIcon={<ChevronDownIcon />}>
+                <Menu >
+                    <MenuButton  borderRadius="none"  _hover={{ color: 'blue', borderBottom:'3px solid blue',}} bg="none" mr="35px" as={Button}  rightIcon={<ChevronDownIcon />}>
                         Solution
                     </MenuButton>
                     <MenuList color="black" display="flex">
@@ -56,12 +60,14 @@ const Navbar = () => {
                         </Box>
                     </MenuList>
                 </Menu>
-                <Menu>
+                <Menu >
+                    <Link to="/price">
                     <MenuButton borderRadius="none"  _hover={{ color: 'blue', borderBottom:'3px solid blue',}} bg="none" mr="35px" as={Button}>
                         Pricing
                     </MenuButton>
+                    </Link>
                 </Menu>
-                <Menu>
+                <Menu >
                     <MenuButton borderRadius="none" _hover={{ color: 'blue', borderBottom:'3px solid blue',}} bg="none" mr="35px" as={Button} rightIcon={<ChevronDownIcon />}>
                         Learn
                     </MenuButton>
@@ -83,7 +89,7 @@ const Navbar = () => {
                         </Box>
                     </MenuList>
                 </Menu>
-                <Menu>
+                <Menu >
                     <MenuButton borderRadius="none"  _hover={{ color: 'blue', borderBottom:'3px solid blue',}} bg="none" mr="35px" as={Button}>
                         Contacts
                     </MenuButton>

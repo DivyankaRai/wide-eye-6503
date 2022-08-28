@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Navbar from './Components/Navbar';
 import AllRoutes from './Routes/AllRoutes';
-import Footer from './Routes/Footer';
+import Footer from './Components/Footer';
 
 
 function App() {
